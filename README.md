@@ -2,10 +2,11 @@
 - kitty
 - i3
 - i3status
-- neovim
 - picom
 - feh
+# Optional stuff
 - fastfetch
+- neovim
 
 # Disclaimer
 If you're using Systemd, remove the lines:
