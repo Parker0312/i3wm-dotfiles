@@ -1,2 +1,18 @@
-# i3wm-dotfiles
-My crappy dots for my i3 rice.
+# Requirements
+- kitty
+- i3
+- i3status
+- neovim
+- picom
+- feh
+- fastfetch
+
+# Disclaimer
+If you're using Systemd, remove the lines:
+```
+exec --no-startup-id pipewire
+exec --no-startup-id wireplumber
+exec --no-startup-id pipewire-pulse
+```
+from the config or audio may be broken.
+**Config also may also require some additional adjusting.**
