@@ -1,0 +1,24 @@
+general {
+    output_format = "i3bar"
+    colors = true
+    interval = 5
+}
+
+order += "battery all"
+order += "volume master"
+order += "tztime local"
+
+battery all {
+    format = "BAT %status %percentage"
+    status_bat = "discharging"
+    status_chr = "charging"
+    status_full = "full"
+}
+
+volume master {
+    format = "VOL %volume"
+}
+
+tztime local {
+    format = "%Y-%m-%d %H:%M:%S"
+}
