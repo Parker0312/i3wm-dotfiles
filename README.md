@@ -17,4 +17,4 @@ exec --no-startup-id pipewire-pulse
 ```
 from the config or audio may be broken.
 **Config also may also require some additional adjusting.**
-![Uploading image.png…]()
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7aff59ff-3bc4-42fd-91fd-1cbc538801e0" />
